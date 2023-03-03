@@ -4,8 +4,8 @@
   <ShortName>ClickHouse Docs</ShortName>
   <Description>Search ClickHouse Docs</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://clickhouse.com/docs/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://clickhouse.com/docs/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://clickhouse.com/docs/opensearch.xml" />
-  <moz:SearchForm>https://clickhouse.com/docs/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://danroscigno.github.io/AlgoliaDocsSelfCrawl/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://danroscigno.github.io/AlgoliaDocsSelfCrawl/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://danroscigno.github.io/AlgoliaDocsSelfCrawl/opensearch.xml" />
+  <moz:SearchForm>https://danroscigno.github.io/AlgoliaDocsSelfCrawl/</moz:SearchForm>
 </OpenSearchDescription>
