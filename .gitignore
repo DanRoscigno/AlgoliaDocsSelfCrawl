@@ -1,0 +1,15 @@
+node_modules
+.docusaurus
+build
+
+**/.DS_Store
+run.sh
+cleanup.sh
+update.sh
+
+.ignore
+.marksman.toml
+yarnbuild.out
+clickhouse-docs.code-workspace
+.idea
+**/tmp/
