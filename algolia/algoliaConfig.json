@@ -12,5 +12,6 @@
     "lvl5": "h6",
     "text": "p,ol,ul,a"
   },
-  "nb_hits": 437
+  "nb_hits": 437,
+  "self.nb_hits_max": 100
 }
