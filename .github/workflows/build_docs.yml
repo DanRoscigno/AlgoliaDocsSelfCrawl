@@ -1,0 +1,31 @@
+name: Deploy docs website
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out docs repo
+        uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      # Install and build Docusaurus website
+      - name: Build Docusaurus website
+        run: |
+          export NODE_OPTIONS="--max_old_space_size=4096"
+          npm install -g yarn
+          yarn install
+          yarn build
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          exclude_assets: '.github'
+          publish_branch: gh-pages
+          publish_dir: ./build
+          destination_dir: docs
