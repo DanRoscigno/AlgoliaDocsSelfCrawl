@@ -9,7 +9,7 @@ const config = {
   title: 'ClickHouse Docs',
   tagline: 'Documentation, quick starts, user guides, technical references, FAQs and more...',
   url: 'https://clickhouse.com',
-  baseUrl: '/docs/',
+  baseUrl: '/AlgoliaDocsSelfCrawl/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
