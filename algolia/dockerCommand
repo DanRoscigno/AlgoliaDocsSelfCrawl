@@ -1,0 +1,6 @@
+docker run \
+  --network host \
+  -e "APPLICATION_ID=${APPLICATION_ID}" \
+  -e "API_KEY=${API_KEY}" \
+  -e "CONFIG=$(cat ./algoliaConfig.json | jq -r tostring)" \
+  algolia/docsearch-scraper
