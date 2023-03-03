@@ -8,8 +8,8 @@ const katex = require('rehype-katex');
 const config = {
   title: 'ClickHouse Docs',
   tagline: 'Documentation, quick starts, user guides, technical references, FAQs and more...',
-  url: 'https://danroscigno.github.io/AlgoliaDocsSelfCrawl',
-  baseUrl: '/docs/',
+  url: 'https://danroscigno.github.io/',
+  baseUrl: '/AlgoliaDocsSelfCrawl/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
