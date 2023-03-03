@@ -1,0 +1,6 @@
+docker run \
+  --network host \
+  -ti \
+  -e "APPLICATION_ID=${APPLICATION_ID}" \
+  -e "API_KEY=${API_KEY}" \
+  algolia/docsearch-scraper "docsearch playground"
