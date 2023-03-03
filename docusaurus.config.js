@@ -711,7 +711,6 @@ const config = {
           { from: '/en/getting-started/tutorial', to: '/en/tutorial' },
           { from: '/en/getting-started/install', to: '/en/install' },
           { from: '/quick-start', to: '/en/quick-start' },
-          { from: '/ru/whats-new/index', to: '/ru/whats-new/' },
           { from: '/en/operations', to: '/en/manage' },
           { from: '/en/faq/en/faq/billing', to: '/en/faq/billing' },
           { from: '/en/faq/en/faq/troubleshooting', to: '/en/faq/troubleshooting' },
