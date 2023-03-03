@@ -186,14 +186,6 @@ const config = {
                 label: 'English',
                 to: '/en/intro',
               },
-              {
-                label: 'Russian',
-                to: '/ru',
-              },
-              {
-                label: 'Chinese',
-                to: '/zh',
-              }
             ]
           },
           {
