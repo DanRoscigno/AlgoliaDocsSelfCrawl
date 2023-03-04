@@ -76,9 +76,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        appId: '62VCH2MD74',
-        apiKey: '2363bec2ff1cf20b0fcac675040107c3',
-        indexName: 'clickhouse',
+        appId: 'R7FRLK17BE',
+        apiKey: 'b9202d763e8cca45077a35addf380b9d',
+        indexName: 'documentation',
         contextualSearch: false,
         searchPagePath: 'search',
       },
