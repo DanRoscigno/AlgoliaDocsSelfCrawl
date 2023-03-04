@@ -1,5 +1,5 @@
 {
-  "index_name": "example",
+  "index_name": "documentation",
   "sitemap_urls": [
     "https://danroscigno.github.io/AlgoliaDocsSelfCrawl/sitemap.xml"
   ],
